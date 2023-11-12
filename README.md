@@ -45,9 +45,9 @@
 
 ## 📰 News
 * **[2023.10.23]**  🎶 LanguageBind-Audio achieves 🎉🎉🎉**state-of-the-art (SOTA) performance on 5 datasets**, checking our ✨[results](#multiple-modalities)!
-* **[2023.10.14]**  😱 Released a stronger LanguageBind-Video, checking our ✨[results](#video-language)! The video checkpoint **have updated** on Huggingface Model Hub!
+* **[2023.10.14]**  😱 Released a stronger LanguageBind-Video, checking our ✨[results](#video-language)! The video checkpoint **have updated** on Hugging Face Model Hub!
 * **[2023.10.10]**  We provide sample data, which can be found in [assets](assets), and [emergency zero-shot usage](#emergency-zero-shot) is described. 
-* **[2023.10.07]**  The checkpoints are available on 🤗 [Huggingface Model](https://huggingface.co/LanguageBind).
+* **[2023.10.07]**  The checkpoints are available on 🤗 [Hugging Face Model](https://huggingface.co/LanguageBind).
 * **[2023.10.04]**  Code and [demo](https://huggingface.co/spaces/LanguageBind/LanguageBind) are available now! Welcome to **watch** 👀 this repository for the latest updates.
 
 ## 😮 Highlights
@@ -77,7 +77,7 @@ We make multi-view enhancements to language. We produce multi-view description t
 python gradio_app.py
 ```
 
-* **Online demo.** We provide the [online demo](https://huggingface.co/spaces/LanguageBind/LanguageBind) in Huggingface Spaces. In this demo, you can calculate the similarity of modalities to language, such as audio-to-language, video-to-language, and depth-to-image.
+* **Online demo.** We provide the [online demo](https://huggingface.co/spaces/LanguageBind/LanguageBind) in Hugging Face Spaces. In this demo, you can calculate the similarity of modalities to language, such as audio-to-language, video-to-language, and depth-to-image.
 <p align="center">
 <img src="assets/demo.png" width=100%>
 </p>
@@ -115,7 +115,7 @@ pip install -r requirements.txt
 ```
 
 ## 🤖 API
-**We open source all modalities preprocessing code.** If you want to load the model (e.g. ```LanguageBind/LanguageBind_Thermal```) from the model hub on Huggingface or on local, you can use the following code snippets.
+**We open source all modalities preprocessing code.** If you want to load the model (e.g. ```LanguageBind/LanguageBind_Thermal```) from the model hub on Hugging Face or on local, you can use the following code snippets.
 
 ### Inference for Multi-modal Binding 
 We have provided some sample datasets in [assets](assets) to quickly see how languagebind works.
